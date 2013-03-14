@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
+gem 'bootstrap-sass', '2.1'
 
 group :production do
   gem 'pg', '0.12.2'
@@ -12,7 +13,6 @@ group :development, :test do
   gem 'guard-rspec', '1.2.1'
   gem 'guard-spork', '1.4.2'
   gem 'spork', '0.9.2'
-  gem 'bootstrap-sass', '2.1'
 end
 
 # Gems used only for assets and not required
